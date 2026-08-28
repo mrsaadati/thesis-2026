@@ -1,0 +1,188 @@
+% در این فایل، دستورها و تنظیمات مورد نیاز، آورده شده است.
+%--------------------------------------------------------------Tarbiat Modares-----------------------------------------------------
+\usepackage{pdfpages}
+\usepackage{algorithm}%
+\usepackage{algorithmicx}%
+\usepackage{algpseudocode}%
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{lscape}
+
+\usepackage{pythonhighlight}
+
+% در ورژن جدید زی‌پرشین برای تایپ متن‌های ریاضی، این سه بسته، حتماً باید فراخوانی شود
+\usepackage{amsthm,amssymb,amsmath}
+\usepackage{dsfont}\usepackage{dsfont}\usepackage{dsfont}
+% بسته‌ای برای تنطیم حاشیه‌های بالا، پایین، چپ و راست صفحه
+\usepackage[top=40mm, bottom=30mm, left=25mm, right=35mm]{geometry}
+\setlength{\textwidth}{15cm}
+\setlength{\oddsidemargin}{2mm}
+\renewcommand{\baselinestretch}{1.5}     % ê¬Ü ¡ÎÏ
+% بسته‌‌ای برای ظاهر شدن شکل‌ها و تصاویر متن
+\usepackage{graphicx}
+% کنترل قرارگیری دقیق شناور‌ها (برای [H])
+\usepackage{float}
+% بسته‌ای برای رسم کادر
+%\usepackage{framed} 
+% بسته‌‌ای برای چاپ شدن خودکار تعداد صفحات در صفحه «معرفی پایان‌نامه»
+\usepackage{lastpage}
+% بسته‌های لازم برای ترسیم دیاگرام‌ها با تیک‌زد
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,shapes.geometric,shapes.misc,backgrounds,decorations.pathmorphing}
+% بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
+\usepackage[linktocpage=true,colorlinks,pagebackref=false,linkcolor=blue,citecolor=magenta]{hyperref}
+%\usepackage[pagebackref=false,colorlinks,linkcolor=blue,citecolor=magenta]{hyperref}
+% چنانچه قصد پرینت گرفتن نوشته خود را دارید، خط بالا را غیرفعال و  از دستور زیر استفاده کنید چون در صورت استفاده از دستور زیر‌‌، 
+% لینک‌ها به رنگ سیاه ظاهر خواهند شد که برای پرینت گرفتن، مناسب‌تر است
+%\usepackage[pagebackref=false]{hyperref}
+% بسته‌ لازم برای تنظیم سربرگ‌ها
+\usepackage{fancyhdr}
+\setlength{\headheight}{16pt}
+% بسته‌ای برای ظاهر شدن «مراجع» و «نمایه» در فهرست مطالب
+\usepackage[nottoc]{tocbibind}
+% دستورات مربوط به ایجاد نمایه
+\usepackage{makeidx}
+\makeindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% فراخوانی بسته زی‌پرشین و تعریف قلم فارسی و انگلیسی
+\usepackage{xepersian}
+\settextfont[Scale=1.1,BoldFont={XB NiloofarBd.ttf},ItalicFont={XB NiloofarIt.ttf},BoldItalicFont={XB NiloofarBdIt.ttf}]{XB Niloofar.ttf}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% چنانچه می‌خواهید اعداد در فرمول‌ها، انگلیسی باشد، خط زیر را غیرفعال کنید
+%\setdigitfont[Scale=0.9]{Persian Modern}
+%\setdigitfont[Scale=1.1]{XB Zar}
+%\setdigitfont[Scale=1.1]{B Nazanin Outline}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% تعریف قلم‌های فارسی و انگلیسی اضافی برای استفاده در بعضی از قسمت‌های متن
+\defpersianfont\nastaliq[Scale=2.02]{IranNastaliq.ttf}
+\defpersianfont\bnazaninout[Scale=2]{B Nazanin Outline.ttf} 
+\defpersianfont\chapternumber[Scale=2.5]{XB Kayhan Pook.ttf}
+\defpersianfont\dav[Scale=2]{XB Kayhan Pook.ttf}
+\defpersianfont\titr[Scale=1.02]{XB Titre.ttf}
+%\defpersianfont\chapternumber[Scale=3]{XB Niloofar}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% دستوری برای حذف کلمه «چکیده»
+%\renewcommand{\abstractname}{}
+% دستوری برای حذف کلمه «abstract»
+\renewcommand{\latinabstract}{}
+% دستوری برای تغییر نام کلمه «اثبات» به «برهان»
+\renewcommand\proofname{\textbf{برهان}}
+% دستوری برای تغییر نام کلمه «کتاب‌نامه» به «مراجع»
+\renewcommand{\bibname}{\rl{{کتاب‌نامه}\hfill}}
+%\renewcommand{\refname}{\rl{{کتاب‌نامه}\hfill}}
+\def\contentsname{فهرست مندرجات}
+\def\listfigurename{لیست اشکال}
+% دستوری برای تعریف واژه‌نامه انگلیسی به فارسی
+\newcommand\persiangloss[2]{#1\dotfill\lr{#2}\\}
+% دستوری برای تعریف واژه‌نامه فارسی به انگلیسی 
+\newcommand\englishgloss[2]{#2\dotfill\lr{#1}\\}
+% تعریف دستور جدید «\پ» برای خلاصه‌نویسی جهت نوشتن عبارت «پروژه/پایان‌نامه/رساله»
+\newcommand{\پ}{پروژه/پایان‌نامه/رساله }
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% تعریف و نحوه ظاهر شدن عنوان قضیه‌ها، تعریف‌ها، مثال‌ها و ...
+\theoremstyle{definition}
+\newtheorem{definition}{تعریف}[section]
+\theoremstyle{theorem}
+\newtheorem{theorem}[definition]{قضیه}
+\newtheorem{lemma}[definition]{لم}
+\newtheorem{proposition}[definition]{گزاره}
+\newtheorem{corollary}[definition]{نتیجه}
+\newtheorem{remark}[definition]{ملاحظه}
+\theoremstyle{definition}
+\newtheorem{example}[definition]{مثال}
+\newcommand{\x}{\mbox{\boldmath$x$\unboldmath}}
+\newcommand{\dd}{\mbox{\boldmath$d$\unboldmath}}
+\newcommand{\Uu}{\mbox{\boldmath$U$\unboldmath}}
+ \newcommand{\balpha}{\mbox{\boldmath$\alpha$\unboldmath}}
+ \newcommand{\bbeta}{\mbox{\boldmath$\beta$\unboldmath}}
+  \newcommand{\btheta}{\mbox{\boldmath$\theta$\unboldmath}}
+ \newcommand{\bphi}{\mbox{\boldmath$\phi$\unboldmath}}
+  \newcommand{\bpsi}{\mbox{\boldmath$\psi$\unboldmath}}
+\newcommand{\bmu}{\mbox{\boldmath$\mu$\unboldmath}}
+ \newcommand{\X}{\mbox{\boldmath$X$\unboldmath}}
+\newcommand{\Y}{\mbox{\boldmath$Y$\unboldmath}}
+\newcommand{\z}{\mbox{\boldmath$z$\unboldmath}}
+ \newcommand{\W}{\mbox{\boldmath$W$\unboldmath}}
+ \newcommand{\q}{\mbox{\boldmath$q$\unboldmath}}
+ \newcommand{\bb}{\mbox{\boldmath$b$\unboldmath}}
+ \newcommand{\I}{\mbox{\boldmath$I$\unboldmath}}
+\newcommand{\w}{\mbox{\boldmath$w$\unboldmath}}
+\newcommand{\tb}{\mbox{\boldmath$\theta$\unboldmath}}
+\newcommand{\bSigma}{\mbox{\boldmath$\Sigma$\unboldmath}}
+\newcommand{\bsigma}{\mbox{\boldmath$\sigma$\unboldmath}}
+\newcommand{\logit}{{\rm{logit}}}
+\newcommand{\rth}{{\rm{th}}}
+\newcommand{\E}{{\rm{E}}}
+\newcommand{\Var}{{\rm{Var}}}
+\newcommand{\Pq}{{\rm{P}}}
+\newcommand{\ICHS}{مطالعه سلامت کودکان اندونزیایی}
+\newcommand{\OR}{{\rm{OR}}}
+\newcommand{\Corr}{{\rm{Corr}}}
+\newcommand{\Cov}{{\rm{Cov}}}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% دستورهایی برای سفارشی کردن سربرگ صفحات
+\csname@twosidefalse\endcsname
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyhead[RE]{\rightmark}
+\fancyhead[LO]{\leftmark}
+\fancyhead[LE,RO]{\thepage}
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter.\ #1}{}}
+% دستورهایی برای سفارشی کردن سربرگ صفحات
+%\csname@twosidetrue\endcsname
+%\pagestyle{fancy}
+%\fancyhf{} 
+%\fancyhead[OL,EL]{\thepage}
+%\fancyhead[OR]{\small\rightmark}
+%\fancyhead[ER]{\small\leftmark}
+%\renewcommand{\chaptermark}[1]{%
+%\markboth{\thechapter.\ #1}{}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% دستورهایی برای سفارشی کردن صفحات اول فصل‌ها
+\makeatletter
+\newcommand\mycustomraggedright{%
+ \if@RTL\raggedleft%
+ \else\raggedright%
+ \fi}
+\def\@part[#1]#2{%
+\ifnum \c@secnumdepth >-2\relax
+\refstepcounter{part}%
+\addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+\else
+\addcontentsline{toc}{part}{#1}%
+\fi
+\markboth{}{}%
+{\centering
+\interlinepenalty \@M
+\ifnum \c@secnumdepth >-2\relax
+ \Huge\bfseries \partname\nobreakspace\thepart
+\par
+\vskip 20\p@
+\fi
+\Huge\bfseries #2\par}%
+\@endpart}
+
+\def\@makechapterhead#1{%
+\vspace*{50pt} 
+%\vspace*{-30\p@}%
+{\parindent \z@ \mycustomraggedright 
+%{\parindent 0pt \mycustomraggedright 
+{\centering{
+\ifnum \c@secnumdepth >\m@ne
+\if@mainmatter
+
+%\huge\bfseries \@chapapp\space {\chapternumber\thechapter}
+%\huge\bnazaninout \@chapapp\space {\chapternumber\thechapter}
+{\large\bnazaninout \@chapapp{} \thechapter \par}
+\par\nobreak
+\vskip 20\p@
+\fi
+% \vskip 20pt 
+\fi
+\interlinepenalty\@M 
+\Huge \bfseries #1\par\nobreak  \vskip 120\p@  }}}}
+% \Huge \bf #1       \par \nobreak \vskip 40pt }}}}
+\makeatother

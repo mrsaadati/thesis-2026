@@ -1,0 +1,14 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "duodit_defense_fa.xdv" "duodit_defense_fa.pdf" "duodit_defense_fa" 1782508416.33702 -1
+  "duodit_defense_fa.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "duodit_defense_fa.pdf"
+  (rewritten before read)
+["xelatex"] 1782508416.20417 "duodit_defense_fa.tex" "duodit_defense_fa.xdv" "duodit_defense_fa" 1782508416.33698 2
+  "duodit_defense_fa.aux" 1782508408.20375 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "duodit_defense_fa.tex" 0 -1 0 ""
+  (generated)
+  "duodit_defense_fa.aux"
+  "duodit_defense_fa.log"
+  "duodit_defense_fa.xdv"
+  (rewritten before read)

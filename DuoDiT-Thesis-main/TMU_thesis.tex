@@ -1,0 +1,88 @@
+%        نمونه پایان‌نامه آماده شده با استفاده از کلاس TarbiatModares، نگارش 0.4
+%        سجاد نوریان، دانشگاه تربیت مدرس،
+%-----------------------------------------------------------------------------------------------------
+%        اگر قصد نوشتن پروژه کارشناسی را دارید، در خط زیر به جای msc، کلمه bsc و اگر قصد نوشتن رساله دکتری
+%        را دارید، کلمه phd را قرار دهید. کلیه تنظیمات لازم، به طور خودکار، اعمال می‌شود.
+% !TEX TS-program = xelatex
+\documentclass[oneside,openany,12pt,msc]{TarbiatModares}
+%       فایل commands.tex را حتماً به دقت مطالعه کنید؛ چون دستورات مربوط به فراخوانی بسته زی‌پرشین
+%       و دیگر بسته‌ها و ... در این فایل قرار دارد و بهتر است که با نحوه استفاده از آنها آشنا شوید.
+
+\input{commands}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%دستورات مربوط به نحوه شماره‌دهی جدول ها و شکل‌ها
+\makeatletter
+\renewcommand \theequation {\@arabic\c@equation.\@arabic\c@section.\@arabic\c@chapter}
+\renewcommand \thefigure     {\@arabic\c@chapter.\@arabic\c@figure}
+\renewcommand \thetable      {\@arabic\c@chapter.\@arabic\c@table}
+% دستوری برای حذف خط در زیر سربرگ هر صفحه
+\renewcommand{\headrulewidth}{0pt}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\includepdf[]{thesispage1}
+\includepdf[]{thesispage2}
+\includepdf[]{thesispage4}
+\includepdf[]{thesispage3}
+\input{fa_title}
+\includepdf[]{Tassir}
+\label{footdir@1}
+\label{footdir@2}
+\label{footdir@3}
+%\pagenumbering{harfi}
+% \includepdf[]{Taasir}
+\pagenumbering{alph}
+\tableofcontents
+\listoftables
+\listoffigures
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\baselineskip=1.0cm
+\include{chapter0}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\pagenumbering{arabic}
+{
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+
+\include{chapter5}
+%\lhead{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE]{\rightmark}
+\fancyhead[LO]{\leftmark}
+\fancyhead[LE,RO]{\thepage}
+
+%\renewcommand{\bibname}{کتاب‌نامه}
+
+\setLTRbibitems
+%\begin{thebibliography}{99}
+%\resetlatinfont
+%\persian
+%\latin
+%\renewcommand{\bibname}{کتاب‌نامه}
+%\bibliography{references.bib}
+%\bibliographystyle{ieeetr}
+%\end{thebibliography}
+
+\cfoot{}
+\lhead{کتاب‌نامه}
+%\lr{
+\bibliographystyle{plain}
+\bibliography{references}
+%}
+}
+% \appendix
+% \include{appendix1}
+{\baselineskip=.75cm
+%\include{namname}
+%\include{dicfa2en}
+%\include{dicen2fa}
+\printindex
+\input{en_title}}
+\label{LastPage}
+\end{document}
