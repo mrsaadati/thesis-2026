@@ -1,0 +1,43 @@
+% در این فایل، عنوان پایان‌نامه، مشخصات خود و چکیده پایان‌نامه را به انگلیسی، وارد کنید.
+% توجه داشته باشید که جدول حاوی مشخصات پایان‌نامه/رساله، به طور خودکار، رسم می‌شود.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\baselineskip=.6cm
+\begin{latin}
+    \latinfaculty{Faculty of Mathematical Sciences}
+    \latindegree{Master of Computer Science}
+    \latinuniversity{Tarbiat Modares University}
+% group
+\latinsubject{Department of Computer Science}
+\latinfield{Specialization in Data Mining}
+\latintitle{Improving Diffusion Models Based on Vision Transformers for Image Generation}
+\firstlatinsupervisor{Dr.\ Mansoor Rezghi Ahaq}
+%\secondlatinsupervisor{Second Supervisor}
+%\firstlatinadvisor{First Advisor}
+%\secondlatinadvisor{Second Advisor}
+\latinname{Mostafa}
+\latinsurname{Shahbazi Dil}
+\latinthesisdate{2026 Feb}
+\latinkeywords{Vision transformers, diffusion models, local and global features, feature aggregation, parameter-efficient fine-tuning}
+\newpage
+\thispagestyle{empty}
+\baselineskip=.750cm
+\en-abstract{%\noindent
+Diffusion transformer models, such as DiT, provide high quality in class-conditional image generation, but fully fine-tuning them for new domains or requirements is costly in terms of memory, training time, and storage. This thesis introduces DuoDiT as a parameter-efficient fine-tuning architecture for DiT models. In this architecture, the main DiT-XL/2 backbone remains frozen, while a second branch with a smaller patch size extracts local and fine-grained features. To align this branch with the backbone tokens, DuoDiT uses a local class-token mechanism that summarizes each spatial group of fine-grained tokens in a content-aware manner. The main evaluation is performed on 50,000 images generated conditionally on the ImageNet-1K dataset at $256 \times 256$ resolution. DuoDiT-200, with 17.95M trainable parameters out of 690.39M total parameters, achieves FID=2.219, KID=0.0014, and LPIPS-Mean=0.7162. In addition, a human study shows that DuoDiT samples are preferred over LightningDiT in 53.26\% of the comparisons. The results indicate that adding a lightweight high-resolution pathway can improve perceptual quality and fine-tuning efficiency without fully retraining the model.
+}
+
+%\markboth{\lr{Abstract}}{\lr{Abstract}}
+\noindent
+\begin{large}
+\begin{center}
+Abstract
+\end{center}
+\end{large}
+%
+Diffusion transformer models, such as DiT, provide high quality in class-conditional image generation, but fully fine-tuning them for new domains or requirements is costly in terms of memory, training time, and storage. This thesis introduces DuoDiT as a parameter-efficient fine-tuning architecture for DiT models. In this architecture, the main DiT-XL/2 backbone remains frozen, while a second branch with a smaller patch size extracts local and fine-grained features. To align this branch with the backbone tokens, DuoDiT uses a local class-token mechanism that summarizes each spatial group of fine-grained tokens in a content-aware manner. The main evaluation is performed on 50,000 images generated conditionally on the ImageNet-1K dataset at $256 \times 256$ resolution. DuoDiT-200, with 17.95M trainable parameters out of 690.39M total parameters, achieves FID=2.219, KID=0.0014, and LPIPS-Mean=0.7162. In addition, a human study shows that DuoDiT samples are preferred over LightningDiT in 53.26\% of the comparisons. The results indicate that adding a lightweight high-resolution pathway can improve perceptual quality and fine-tuning efficiency without fully retraining the model.
+\newline
+{{\bf Keywords:}}
+Vision transformers, diffusion models, local and global features, feature aggregation, parameter-efficient fine-tuning%}
+\newpage
+\latinvtitle%
+%\thispagestyle{empty}
+\end{latin}

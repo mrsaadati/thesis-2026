@@ -1,0 +1,79 @@
+%% beamerouterthemelu.sty
+%% Copyright 2023- J.P. van Leenen
+%% LPPL 1.3c+
+
+\mode<presentation>
+
+\newif\ifbeamer@lu@showslidenumber
+\beamer@lu@showslidenumbertrue
+
+\def\beamer@lu@footleft{}
+
+\DeclareOptionBeamer{noslidenumbering}{%
+    \beamer@lu@showslidenumberfalse
+}
+\ProcessOptionsBeamer
+
+\newcommand{\setlufootleft}[1]{%
+    \def\beamer@lu@footleft{#1}%
+}
+
+\newdimen\lusidebar@textwidth
+\lusidebar@textwidth=\paperwidth
+\def\lusidebar@offset{0pt}
+\lusidebar@rightfalse
+\lusidebar@activefalse
+
+\setbeamertemplate{footline}{%
+    \begin{beamercolorbox}[
+        wd=\paperwidth,
+        ht=2.6ex,
+        dp=1.3ex
+    ]{lu simple footline}%
+        \iflusidebar@active
+        \iflusidebar@right\else \hspace*{\lusidebar@offset}\hspace*{0.03\paperwidth}\fi
+        \fi
+        \hspace*{0.07\paperwidth}%
+        \usebeamerfont{footline}%
+        \ifx
+            \beamer@lu@footleft\@empty
+        % nothing
+        \else
+            \beamer@lu@footleft
+        \fi
+        \hfill
+        \ifbeamer@lu@showslidenumber
+        \usebeamerfont{page number in head/foot}%
+        \iflusidebar@active\iflusidebar@right\color{lightblueLU}\fi\fi
+        \insertframenumber
+        \fi
+        \hspace*{0.07\paperwidth}%
+    \end{beamercolorbox}%
+    \vspace*{1.5ex}%
+}
+
+\newdimen\lusidebar@titlewidth
+\AtBeginDocument{\lusidebar@titlewidth=\paperwidth}
+\lusidebar@titlewidth=\paperwidth
+
+\setbeamertemplate{frametitle}{%
+    \vspace{2.25ex}%
+    \begin{beamercolorbox}[
+        wd=\paperwidth
+    ]{frametitle}%
+        \hspace*{0.07\paperwidth}%
+        \iflusidebar@active
+        \iflusidebar@right\else \hspace*{\lusidebar@offset}\fi
+        \fi
+        \parbox[t]{\dimexpr\lusidebar@textwidth-0.07\paperwidth\relax}{%
+            \raggedright
+            \usebeamerfont{frametitle}%
+            \insertframetitle\strut\ %
+            \usebeamerfont{framesubtitle}%
+            \usebeamercolor[fg]{framesubtitle}%
+            \insertframesubtitle%
+        }\par%
+    \end{beamercolorbox}%
+}
+
+\mode<all>

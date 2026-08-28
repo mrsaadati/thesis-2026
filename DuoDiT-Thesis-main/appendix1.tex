@@ -1,0 +1,45 @@
+\chapter{‌متن برنامه‌ها}
+\thispagestyle{empty}
+در این پیوست، بخش‌های کلیدی از پیاده‌سازی معماری \lr{x2-DiT} ارائه شده است. تمرکز اصلی بر روی متد \lr{forward} است که در آن جریان ورودی با وضوح بالا (\lr{x2}) پردازش شده و توکن‌های کلاس محلی برای تجمیع ویژگی‌ها در آن درج می‌شوند. این کد نشان می‌دهد که چگونه دو جریان داده به‌صورت همزمان مدیریت می‌شوند.
+
+\begin{latin}
+\begin{python}
+def forward(self, x, t, y):
+    """
+    Forward pass of x2-DiT.
+    x: (N, C, H, W) tensor of spatial inputs
+    t: (N,) tensor of diffusion timesteps
+    y: (N,) tensor of class labels
+    """
+
+    # 1. Process high-resolution stream (x2)
+    x2 = self.x2_embedder(x)  # (N, 4T, D)
+
+    # Insert class tokens after every 4 patches to create local groups
+    N, seq_len, D = x2.shape
+    T = seq_len // 4
+
+    # Reshape to group patches: (N, 4T, D) -> (N, T, 4, D)
+    x2 = x2.reshape(N, T, 4, D)
+
+    # Expand learnable class tokens: (1, T, D) -> (N, T, 1, D)
+    x2_cls_tokens_expanded = self.x2_cls_tokens.repeat(N, 1, 1).unsqueeze(2)
+
+    # Concatenate class tokens: (N, T, 4, D) + (N, T, 1, D) -> (N, T, 5, D)
+    x2 = torch.cat([x2, x2_cls_tokens_expanded], dim=2)
+
+    # Reshape back to sequence: (N, 5T, D)
+    x2 = x2.reshape(N, 5 * T, D)
+
+    # 2. Process main stream (standard DiT)
+    x = self.x_embedder(x) + self.pos_embed  # (N, T, D)
+    t = self.t_embedder(t)                   # (N, D)
+    y = self.y_embedder(y, self.training)    # (N, D)
+    c = t + y                                # (N, D)
+
+    # The rest of the forward pass continues with block processing...
+    # ...
+\end{python}
+\end{latin}
+
+در کد فوق، مشاهده می‌شود که چگونه یک توکن کلاس یادگیرنده به ازای هر گروه ۴ تایی از پچ‌های \lr{x2} اضافه می‌شود. این ساختار به مدل اجازه می‌دهد تا اطلاعات محلی را به‌طور موثرتری نسبت به روش‌های سنتی مانند عملیات تجمیع و کاهش طول توالی ویژگی‌ها (\lr{Pooling}) جذب و نمایندگی کند.

@@ -1,0 +1,475 @@
+\begin{thebibliography}{10}
+
+\bibitem{2209.12152}
+Fan Bao, Shen Nie, Kaiwen Xue, Yue Cao, Chongxuan Li, Hang Su, and Jun Zhu.
+\newblock All are worth words: A vit backbone for diffusion models.
+\newblock {\em arXiv preprint arXiv:2209.12152}, 2022.
+
+\bibitem{8106348}
+Fan Bao, Shen Nie, Kaiwen Xue, Yue Cao, Chongxuan Li, Hang Su, and Jun Zhu.
+\newblock All are worth words: A vit backbone for diffusion models.
+\newblock 2023.
+
+\bibitem{binkowski2018kid}
+Mikolaj Binkowski, Dougal~J. Sutherland, Michael Arbel, and Arthur Gretton.
+\newblock Demystifying {MMD} {GANs}.
+\newblock {\em International Conference on Learning Representations}, 2018.
+
+\bibitem{5638143}
+He~Cao, Jianan Wang, Tianhe Ren, Xianbiao Qi, Yihao Chen, Yuan Yao, and Lei
+  Zhang.
+\newblock Exploring vision transformers as diffusion learners.
+\newblock {\em arXiv preprint arXiv:2212.13771v1}, 12 2022.
+
+\bibitem{chen2021crossvit}
+Chun-Fu~Richard Chen, Quanfu Fan, and Rameswar Panda.
+\newblock Crossvit: Cross-attention multi-scale vision transformer for image
+  classification.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 357--366, 2021.
+
+\bibitem{chen2025diffusionImageGenerationSurvey}
+Hang Chen, Qian Xiang, Jiaxin Hu, Meilin Ye, Chao Yu, Hao Cheng, and Lei Zhang.
+\newblock Comprehensive exploration of diffusion models in image generation: a
+  survey.
+\newblock {\em Artificial Intelligence Review}, 58(99), 2025.
+
+\bibitem{1031742}
+Junsong Chen, Jincheng Yu, Chongjian Ge, Lewei Yao, Enze Xie, Yue Wu, Zhongdao
+  Wang, James Kwok, Ping Luo, Huchuan Lu, and Zhenguo Li.
+\newblock Pixart-alpha: Fast training of diffusion transformer for
+  photorealistic text-to-image synthesis, 12 2023.
+
+\bibitem{chen2024pixartsigma}
+Junsong Chen, Jincheng Yu, Chongjian Ge, Lewei Yao, Enze Xie, Yue Wu, Zhongdao
+  Wang, James Kwok, Ping Luo, Huchuan Lu, and Zhenguo Li.
+\newblock Pixart-sigma: Weak-to-strong training of diffusion transformer for 4k
+  text-to-image generation.
+\newblock {\em arXiv preprint arXiv:2403.04692}, 2024.
+
+\bibitem{5439194}
+Xinwang Chen, Ning Liu, Yichen Zhu, Feifei Feng, and Jian Tang.
+\newblock Edt: An efficient diffusion transformer framework inspired by
+  human-like sketching.
+\newblock {\em NeurIPS 2024}, 11 2024.
+
+\bibitem{3031821}
+Jiwoo Chung, Sangeek Hyun, and Jae-Pil Heo.
+\newblock Style injection in diffusion: A training-free approach for adapting
+  large-scale diffusion models for style transfer.
+\newblock 2024.
+
+\bibitem{0214306}
+Florinel-Alin Croitoru, Vlad Hondru, Radu~Tudor Ionescu, and Mubarak Shah.
+\newblock Diffusion models in vision: A survey.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  45(9):10850--10869, 9 2023.
+
+\bibitem{5206848}
+Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li~Fei-Fei.
+\newblock Imagenet: A large-scale hierarchical image database.
+\newblock In {\em 2009 IEEE Conference on Computer Vision and Pattern
+  Recognition}, pages 248--255, 2009.
+
+\bibitem{8567753}
+Prafulla Dhariwal and Alex Nichol.
+\newblock Diffusion models beat gans on image synthesis.
+\newblock 6 2021.
+
+\bibitem{6206256}
+Prafulla Dhariwal and Alex Nichol.
+\newblock Diffusion models beat gans on image synthesis.
+\newblock {\em NeurIPS}, 11 2021.
+
+\bibitem{3649101}
+Wei Dong, Xing Zhang, Bihui Chen, Dawei Yan, Zhijun Lin, Qingsen Yan, Peng
+  Wang, and Yang Yang.
+\newblock Low-rank rescaled vision transformer fine-tuning: A residual design
+  approach.
+\newblock 2024.
+
+\bibitem{Dosovitskiy2020}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+  Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale, 2020.
+
+\bibitem{9168840}
+Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas
+  M{\"u}ller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic
+  Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin,
+  Yannik Marek, and Robin Rombach.
+\newblock Scaling rectified flow transformers for high-resolution image
+  synthesis.
+\newblock 3 2024.
+
+\bibitem{9511279}
+Jin Gao, Shubo Lin, Shaoru Wang, Yutong Kou, Zeming Li, Liang Li, Congxuan
+  Zhang, Xiaoqin Zhang, Yizheng Wang, and Weiming Hu.
+\newblock An experimental study on exploring strong lightweight vision
+  transformers via masked image modeling pre-training.
+\newblock {\em arXiv preprint arXiv:2404.12210v2}, 5 2024.
+
+\bibitem{2622409}
+Shanghua Gao, Pan Zhou, Ming-Ming Cheng, and Shuicheng Yan.
+\newblock Mdtv2: Masked diffusion transformer is a strong image synthesizer.
+\newblock 2024.
+
+\bibitem{Goodfellow2014}
+Ian~J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David
+  Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock Generative adversarial networks, 2014.
+
+\bibitem{2755774}
+Ligong Han, Yinxiao Li, Han Zhang, Peyman Milanfar, Dimitris Metaxas, and Feng
+  Yang.
+\newblock Svdiff: Compact parameter space for diffusion fine-tuning.
+\newblock 7 2023.
+
+\bibitem{2312.02139v3}
+Ali Hatamizadeh, Jiaming Song, Guilin Liu, Jan Kautz, and Arash Vahdat.
+\newblock Diffit: Diffusion vision transformers for image generation.
+\newblock {\em arXiv preprint arXiv:2312.02139}, 2023.
+
+\bibitem{2088740}
+Ali Hatamizadeh, Jiaming Song, Guilin Liu, Jan Kautz, and Arash Vahdat.
+\newblock Diffit: Diffusion vision transformers for image generation.
+\newblock {\em arXiv preprint arXiv:2312.02139v3}, 8 2024.
+
+\bibitem{heusel2017fid}
+Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp
+  Hochreiter.
+\newblock {GANs} trained by a two time-scale update rule converge to a local
+  nash equilibrium.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  6626--6637, 2017.
+
+\bibitem{ho2020ddpm}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+\newblock Denoising diffusion probabilistic models.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~33, pages 6840--6851, 2020.
+
+\bibitem{ho2022classifierFreeGuidance}
+Jonathan Ho and Tim Salimans.
+\newblock Classifier-free diffusion guidance, 2022.
+
+\bibitem{8313484}
+Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi,
+  and David~J. Fleet.
+\newblock Video diffusion models.
+\newblock 2022.
+
+\bibitem{hochreiter1997lstm}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural Computation}, 9(8):1735--1780, 1997.
+
+\bibitem{2479204}
+Edward Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+  Wang, Lu~Wang, and Weizhu Chen.
+\newblock Lora: Low-rank adaptation of large language models.
+\newblock 2021.
+
+\bibitem{7223480}
+Yuxin Hu, Han Zhou, Ning Cao, Can Li, and Can Hu.
+\newblock Synthetic ct generation based on cbct using improved vision
+  transformer cyclegan.
+\newblock {\em Scientific Reports}, 14:11455, 4 2024.
+
+\bibitem{karras2022edm}
+Tero Karras, Miika Aittala, Timo Aila, and Samuli Laine.
+\newblock Elucidating the design space of diffusion-based generative models.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~35, pages 26565--26577, 2022.
+
+\bibitem{8501335}
+Yunji Kim, Jiyoung Lee, Jin-Hwa Kim, Jung-Woo Ha, and Jun-Yan Zhu.
+\newblock Dense text-to-image generation with attention modulation.
+\newblock {\em arXiv preprint arXiv:2308.12964v1}, 8 2023.
+
+\bibitem{Kingma2013}
+Diederik~P Kingma and Max Welling.
+\newblock Auto-encoding variational bayes, 2013.
+
+\bibitem{726791}
+Y.~Lecun, L.~Bottou, Y.~Bengio, and P.~Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324, 1998.
+
+\bibitem{0017415}
+Yawei Li, Kai Zhang, Jiezhang Cao, Radu Timofte, Michele Magno, Luca Benini,
+  and Luc~Van Gool.
+\newblock Localvit: Analyzing locality in vision transformers.
+\newblock 2 2025.
+
+\bibitem{1705308}
+Nan Liu, Shuang Li, Yilun Du, Antonio Torralba, and Joshua~B. Tenenbaum.
+\newblock Compositional visual generation with composable diffusion models.
+\newblock 1 2023.
+
+\bibitem{3520873}
+Qihao Liu, Zhanpeng Zeng, Ju~He, Qihang Yu, Xiaohui Shen, and Liang-Chieh Chen.
+\newblock Alleviating distortion in image generation via multi-resolution
+  diffusion models and time-dependent layer normalization.
+\newblock 2024.
+
+\bibitem{loshchilov2019adamw}
+Ilya Loshchilov and Frank Hutter.
+\newblock Decoupled weight decay regularization.
+\newblock In {\em International Conference on Learning Representations}, 2019.
+
+\bibitem{7387391}
+Son~Thai Ly and Hien~V. Nguyen.
+\newblock Enhancing parameter-efficient fine-tuning of vision transformers
+  through frequency-based adaptation.
+\newblock 11 2024.
+
+\bibitem{3521746}
+Jian Ma, Junhao Liang, Chen Chen, and Haonan Lu.
+\newblock Subject-diffusion: Open domain personalized text-to-image generation
+  without test-time fine-tuning.
+\newblock 7 2024.
+
+\bibitem{4875773}
+Xin Ma, Yaohui Wang, Xinyuan Chen, Gengyu Jia, Ziwei Liu, Yuan-Fang Li, Cunjian
+  Chen, and Yu~Qiao.
+\newblock Latte: Latent diffusion transformer for video generation.
+\newblock {\em Transactions on Machine Learning Research}, 3 2025.
+
+\bibitem{2307.01831}
+Shentong Mo, Enze Xie, Ruihang Chu, Lanqing Hong, Matthias Nießner, and
+  Zhenguo Li.
+\newblock Dit-3d: Exploring plain diffusion transformers for 3d shape
+  generation, 2023.
+
+\bibitem{6822437}
+Weili Nie, Hongkai Zheng, Arash Vahdat, and Anima Anandkumar.
+\newblock Fast training of diffusion models with masked transformers.
+\newblock 6 2023.
+
+\bibitem{Pan2024FineDiffusion}
+Ziying Pan, Kun Wang, Gang Li, Feihong He, and Yongxuan Lai.
+\newblock Finediffusion: Scaling up diffusion models for fine-grained image
+  generation with 10,000 classes.
+\newblock {\em Applied Intelligence}, 55(5):309, 2025.
+
+\bibitem{9485734}
+Karran Pandey, Paul Guerrero, Matheus Gadelha, Yannick Hold-Geoffroy, Karan
+  Singh, and Niloy Mitra.
+\newblock Diffusion handles: Enabling 3d edits for diffusion models by lifting
+  activations to 3d.
+\newblock 2023.
+
+\bibitem{2212.09748}
+William Peebles and Saining Xie.
+\newblock Scalable diffusion models with transformers.
+\newblock {\em arXiv preprint arXiv:2212.09748}, 2022.
+
+\bibitem{perez2018film}
+Ethan Perez, Florian Strub, Harm de~Vries, Vincent Dumoulin, and Aaron
+  Courville.
+\newblock {FiLM}: Visual reasoning with a general conditioning layer.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~32, 2018.
+
+\bibitem{Polyak1992EMA}
+Boris~T. Polyak and Anatoli~B. Juditsky.
+\newblock Acceleration of stochastic approximation by averaging.
+\newblock {\em SIAM Journal on Control and Optimization}, 30(4):838--855, 1992.
+
+\bibitem{9851474}
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj\"orn
+  Ommer.
+\newblock High-resolution image synthesis with latent diffusion models.
+\newblock 2022.
+
+\bibitem{rumelhart1986learning}
+David~E. Rumelhart, Geoffrey~E. Hinton, and Ronald~J. Williams.
+\newblock Learning representations by back-propagating errors.
+\newblock {\em Nature}, 323(6088):533--536, 1986.
+
+\bibitem{imagenet15russakovsky}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein,
+  Alexander~C. Berg, and Li~Fei-Fei.
+\newblock {ImageNet Large Scale Visual Recognition Challenge}.
+\newblock {\em International Journal of Computer Vision}, 115(3):211--252,
+  2015.
+
+\bibitem{ryu2023loradiffusion}
+Simo Ryu.
+\newblock Low-rank adaptation for fast text-to-image diffusion fine-tuning.
+\newblock GitHub repository, 2023.
+
+\bibitem{7811582}
+Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily
+  Denton, Seyed Kamyar~Seyed Ghasemipour, Burcu~Karagol Ayan, S.~Sara Mahdavi,
+  Rapha~Gontijo Lopes, Tim Salimans, Jonathan Hoy, David~J Fleety, and Mohammad
+  Norouzi.
+\newblock Photorealistic text-to-image diffusion models with deep language
+  understanding.
+\newblock 5 2022.
+
+\bibitem{8409325}
+James~Seale Smith, Yen-Chang Hsu, Lingyu Zhang, Ting Hua, Zsolt Kira, Yilin
+  Shen, and Hongxia Jin.
+\newblock Continual diffusion: Continual customization of text-to-image
+  diffusion with c-lora.
+\newblock 5 2024.
+
+\bibitem{sohlDickstein2015deepUnsupervised}
+Jascha Sohl-Dickstein, Eric~A. Weiss, Niru Maheswaranathan, and Surya Ganguli.
+\newblock Deep unsupervised learning using nonequilibrium thermodynamics.
+\newblock In {\em Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37, pages 2256--2265. PMLR, 2015.
+
+\bibitem{song2021ddim}
+Jiaming Song, Chenlin Meng, and Stefano Ermon.
+\newblock Denoising diffusion implicit models.
+\newblock In {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{song2019scoreGenerative}
+Yang Song and Stefano Ermon.
+\newblock Generative modeling by estimating gradients of the data distribution.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~32, 2019.
+
+\bibitem{song2021scoreSDE}
+Yang Song, Jascha Sohl-Dickstein, Diederik~P. Kingma, Abhishek Kumar, Stefano
+  Ermon, and Ben Poole.
+\newblock Score-based generative modeling through stochastic differential
+  equations.
+\newblock In {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{Vaswani2017}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need, 2017.
+
+\bibitem{wang2020hrnet}
+Jingdong Wang, Ke~Sun, Tianheng Cheng, Borui Jiang, Chaorui Deng, Yang Zhao,
+  Dong Liu, Yadong Mu, Mingkui Tan, Xinggang Wang, and Wenyu Liu.
+\newblock Deep high-resolution representation learning for visual recognition.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  43(10):3349--3364, 2020.
+
+\bibitem{6927085}
+Lezhong Wang, Jeppe~Revall Frisvad, Mark~Bo Jensen, and Siavash~Arjomand
+  Bigdeli.
+\newblock Stereodiffusion: Training-free stereo image generation using latent
+  diffusion models.
+\newblock 6 2024.
+
+\bibitem{8303733}
+Yaohui Wang, Xinyuan Chen, Xin Ma, Shangchen Zhou, Ziqi Huang, Yi~Wang, Ceyuan
+  Yang, Yinan He, Jiashuo Yu, Peiqing Yang, Yuwei Guo, Tianxing Wu, Chenyang
+  Si, Yuming Jiang, Cunjian Chen, Chen~Change Loy, Bo~Dai, Dahua Lin, Yu~Qiao,
+  and Ziwei Liu.
+\newblock Lavie: High-quality video generation with cascaded latent diffusion
+  models.
+\newblock 9 2023.
+
+\bibitem{3341281}
+Zhendong Wang, Yifan Jiang, Yadong Lu, Yelong Shen, Pengcheng He, Weizhu Chen,
+  Zhangyang Wang, and Mingyuan Zhou.
+\newblock In-context learning unlocked for diffusion models.
+\newblock {\em arXiv preprint arXiv:2305.01115v2}, 10 2023.
+
+\bibitem{5023251}
+ZiDong Wang, Zeyu Lu, Di~Huang, Cai Zhou, Wanli Ouyang, and Lei Bai.
+\newblock Fitv2: Scalable and improved flexible vision transformer for
+  diffusion model.
+\newblock {\em arXiv preprint arXiv:2410.13925v1}, 10 2024.
+
+\bibitem{wightman2019timm}
+Ross Wightman.
+\newblock Pytorch image models.
+\newblock GitHub repository, 2019.
+
+\bibitem{0052338}
+Enze Xie, Lewei Yao, Han Shi, Zhili Liu, Daquan Zhou, Zhaoqiang Liu, Jiawei Li,
+  and Zhenguo Li.
+\newblock Difffit: Unlocking transferability of large diffusion models via
+  simple parameter-efficient fine-tuning.
+\newblock 7 2023.
+
+\bibitem{4920207}
+Xuan Xu, Saarthak Kapse, Rajarsi Gupta, and Prateek Prasanna.
+\newblock Vit-dae: Transformer-driven diffusion autoencoder for histopathology
+  image analysis.
+\newblock 4 2023.
+
+\bibitem{5294562}
+Menglin Yang, Jialin Chen, Yifei Zhang, Jiahong Liu, Jiasheng Zhang, Qiyao Ma,
+  Harshit Verma, Qianru Zhang, Min Zhou, Irwin King, and Rex Ying.
+\newblock Low-rank adaptation for foundation models: A comprehensive review.
+\newblock {\em IEEE TRANSACTION MANUSCRIPT (WORK IN PROGRESS)}, 12 2024.
+
+\bibitem{2208.07791}
+Xiulong Yang, Shengju Sun, Nhan Do, Ce~Yang, Wonjun Jang, and Ruslan
+  Salakhutdinov.
+\newblock Your vit is secretly a hybrid discriminative-generative diffusion
+  model.
+\newblock {\em arXiv preprint arXiv:2208.07791}, 2022.
+
+\bibitem{Yao2025LightningDiT}
+Jingfeng Yao, Bin Yang, and Xinggang Wang.
+\newblock Reconstruction vs. generation: Taming optimization dilemma in latent
+  diffusion models.
+\newblock In {\em Proceedings of the Computer Vision and Pattern Recognition
+  Conference}, pages 15703--15712, 2025.
+
+\bibitem{2411.11505}
+Yao Yao, Peiyan Zhang, Zechun Liu, Zhengkai Jiang, Haonong Zhu, Xuesong Yin,
+  and Kwang-Ting Cheng.
+\newblock Lavin-dit: Large vision diffusion transformer, 2024.
+
+\bibitem{2406.17343}
+Lei Zhang, Zhaowei Chen, Yiming Wu, Ruihan Zhang, Peng Liang, Yidong Li, and
+  Xiaogang Wang.
+\newblock Q-dit: Accurate post-training quantization for diffusion
+  transformers, 2024.
+
+\bibitem{3153255}
+Pengchuan Zhang, Xiyang Dai, Jianwei Yang, Bin Xiao, Lu~Yuan, Lei Zhang, and
+  Jianfeng Gao.
+\newblock Multi-scale vision longformer: A new vision transformer for
+  high-resolution image encoding.
+\newblock 5 2021.
+
+\bibitem{zhang2018lpips}
+Richard Zhang, Phillip Isola, Alexei~A. Efros, Eli Shechtman, and Oliver Wang.
+\newblock The unreasonable effectiveness of deep features as a perceptual
+  metric.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 586--595, 2018.
+
+\bibitem{7732706}
+Taolin Zhang, Jiawang Bai, Zhihe Lu, Dongze Lian, Genping Wang, Xinchao Wang,
+  and Shu-Tao Xia.
+\newblock Parameter-efficient and memory-efficient tuning for vision
+  transformer: A disentangled approach.
+\newblock 7 2024.
+
+\bibitem{4791247}
+Wangbo Zhao, Yizeng Han, Jiasheng Tang, Kai Wang, Hao Luo, Yibing Song, Gao
+  Huang, Fan Wang, and Yang You.
+\newblock Dydit++: Dynamic diffusion transformers for efficient visual
+  generation.
+\newblock 4 2025.
+
+\bibitem{7080581}
+Wangbo Zhao, Yizeng Han, Jiasheng Tang, Kai Wang, Yibing Song, Gao Huang, Fan
+  Wang, and Yang You.
+\newblock Dynamic diffusion transformer.
+\newblock 2024.
+
+\bibitem{9010310}
+Xiaosheng Zhao, Yuan-Sen Ting, Kangning Diao, and Yi~Mao.
+\newblock Can diffusion model conditionally generate astrophysical images?
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, pages
+  1699--1712, 9 2023.
+
+\end{thebibliography}
