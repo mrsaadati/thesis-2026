@@ -1,23 +1,41 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Keep the repository limited to the LaTeX source and the assets needed to compile it.
+*
+!.gitignore
+!README.md
+!*.tex
+!*.bib
+!*.cls
+!*.sty
+!*.ttf
+!*.eps
+!*.png
+
+# LaTeX/XeLaTeX build products
+*.aux
+*.bbl
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+*.pdf
+
+# Local source collections and experimental code are not part of the thesis source.
+/template-Tmodares/
+/thesis/
+/my-yolo-model/
+
+# Editor and operating-system files
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+Thumbs.db
+.DS_Store

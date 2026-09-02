@@ -1,0 +1,33 @@
+% !TEX TS-program = xelatex
+% پایان‌نامه کارشناسی ارشد بر اساس قالب دانشگاه تربیت مدرس
+\documentclass[oneside,openany,12pt,msc]{TarbiatModares}
+\input{commands}
+
+\makeatletter
+\renewcommand\theequation{\@arabic\c@equation.\@arabic\c@section.\@arabic\c@chapter}
+\renewcommand\thefigure{\@arabic\c@chapter.\@arabic\c@figure}
+\renewcommand\thetable{\@arabic\c@chapter.\@arabic\c@table}
+\renewcommand{\headrulewidth}{0pt}
+\makeatother
+
+\begin{document}
+\input{fa_title}
+\pagenumbering{alph}
+\tableofcontents
+\listoftables
+\listoffigures
+\clearpage
+\pagestyle{plain}
+\baselineskip=1.0cm
+\include{chapter0}
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\include{chapter1}
+
+\setLTRbibitems
+\cfoot{}
+\lhead{کتاب‌نامه}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
