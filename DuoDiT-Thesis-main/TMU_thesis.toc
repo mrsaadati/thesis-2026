@@ -1,0 +1,73 @@
+\contentsline {chapter}{فهرست جداول}{ه}{chapter*.2}%
+\contentsline {chapter}{فهرست تصاویر}{و}{chapter*.3}%
+\contentsline {chapter}{پیشگفتار}{ح}{section*.5}%
+\contentsline {chapter}{\numberline {1}مفاهیم اولیه}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}شبکه‌های عصبی پیچشی (\lr {CNN})}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}خودکدگذارهای تغییرپذیر (\lr {VAE})}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}شبکه‌های مولد تخاصمی (\lr {GAN})}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}مدل‌های انتشار (\lr {Diffusion Models})}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}فرآیند انتشار و معادلات}{5}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}شبکه‌های عصبی بازگشتی (\lr {RNN})}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}مبدل‌ها}{8}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}مکانیزم توجه}{10}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}لایه رمزگذار و شبکه پیش‌خور}{10}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}تعبیه موقعیت}{11}{subsection.1.6.3}%
+\contentsline {section}{\numberline {1.7}مبدل‌های بینایی}{12}{section.1.7}%
+\contentsline {section}{\numberline {1.8}تنظیم دقیق پارامتر-کارا (\lr {PEFT})}{14}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}تنظیم پیشوند (\lr {Prefix Tuning})}{14}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}تنظیم جانبی (\lr {Side-Tuning})}{15}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}مجموعه‌داده ImageNet}{15}{section.1.9}%
+\contentsline {section}{\numberline {1.10}معیارهای ارزیابی}{17}{section.1.10}%
+\contentsline {chapter}{\numberline {2}پیشینه پژوهش}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}چارچوب‌های اصلی مدل‌های انتشار}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}مدل‌های \lr {DDPM}}{21}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}مدل‌های مبتنی بر امتیاز}{22}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}مدل‌های انتشار مبتنی بر \lr {SDE}}{23}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}نمونه‌برداری، \lr {DDIM} و هدایت تولید}{24}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}مدل‌های انتشار مبتنی بر مبدل}{26}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}مدل \lr {GenViT}}{27}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}مدل \lr {U-ViT}}{28}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}مدل \lr {DiT}}{29}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}روندهای تکمیلی در مدل‌های انتشار مبتنی بر مبدل}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}تولید شرطی}{34}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}کاربردها}{35}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}محلیت و ویژگی‌های ریزدانه}{36}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}معماری‌های جریان دوگانه}{37}{section.2.4}%
+\contentsline {section}{\numberline {2.5}تجمیع ویژگی و توکن}{41}{section.2.5}%
+\contentsline {section}{\numberline {2.6}روش‌های تنظیم دقیق}{44}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}تنظیم دقیق پارامتر-کارا}{44}{subsection.2.6.1}%
+\contentsline {chapter}{\numberline {3}معماری پیشنهادی: \lr {DuoDiT}}{46}{chapter.3}%
+\contentsline {section}{\numberline {3.1}معماری مدل}{47}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}تعبیه‌ساز پچ با وضوح بالا}{48}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}روش‌های تجمیع ویژگی}{48}{subsection.3.1.2}%
+\contentsline {subsubsection}{تجمیع با پروجکشن خطی}{49}{section*.6}%
+\contentsline {subsubsection}{تجمیع با \lr {Max Pooling}}{50}{section*.7}%
+\contentsline {subsubsection}{تجمیع با \lr {Min Pooling}}{51}{section*.8}%
+\contentsline {subsection}{\numberline {3.1.3}روش تجمیع ویژگی با توکن}{53}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}مبدل بینایی به عنوان خبره (\lr {ViT as Expert})}{56}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}شرط‌گذاری اختیاری با \lr {FiLM}}{56}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}ادغام نهایی}{57}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}استراتژی آموزش و تنظیم دقیق}{58}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}مدیریت پارامترهای منجمد و آموزش‌پذیر}{58}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}مقداردهی اولیه با وزن‌های پیش‌آموزش‌دیده}{59}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}تثبیت آموزش با \lr {EMA}}{59}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}الگوریتم آموزش}{59}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}کارایی پارامتری}{60}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}تابع هزینه}{60}{section.3.3}%
+\contentsline {section}{\numberline {3.4}جمع‌بندی}{62}{section.3.4}%
+\contentsline {chapter}{\numberline {4}آزمایش‌ها، نتایج و تحلیل}{64}{chapter.4}%
+\contentsline {section}{\numberline {4.1}پیکربندی آزمایش}{64}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}جزئیات پیاده‌سازی}{65}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}نتایج کمی}{67}{section.4.2}%
+\contentsline {section}{\numberline {4.3}نتایج کیفی}{67}{section.4.3}%
+\contentsline {section}{\numberline {4.4}مطالعه انسانی}{69}{section.4.4}%
+\contentsline {section}{\numberline {4.5}هزینه محاسباتی و کارایی پارامتری}{69}{section.4.5}%
+\contentsline {section}{\numberline {4.6}مطالعات حذفی}{70}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}راهبردهای تجمیع ویژگی}{70}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}عمق شاخه دوم}{71}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}ویژگی‌های شاخه دوم و ضریب \lr {CFG}}{71}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}بحث}{72}{section.4.7}%
+\contentsline {chapter}{\numberline {5}نتیجه‌گیری و پیشنهادها}{74}{chapter.5}%
+\contentsline {section}{\numberline {5.1}خلاصه و دستاوردها}{74}{section.5.1}%
+\contentsline {section}{\numberline {5.2}پیشنهادهایی برای پژوهش‌های آینده}{75}{section.5.2}%
+\contentsline {chapter}{کتاب‌نامه}{77}{chapter*.9}%
